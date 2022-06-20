@@ -1,0 +1,1 @@
+{"version":3,"file":"scoreboard.type.d.ts","sourceRoot":"","sources":["../../../src/types/api-objects/scoreboard.type.ts"],"names":[],"mappings":"AAAA,oBAAY,UAAU,GAAG;IACrB,OAAO,EAAE,MAAM,EAAE,CAAC;IAClB,KAAK,EAAE;QACH,CAAC,QAAQ,EAAE,MAAM,GAAG,MAAM,EAAE,CAAA;KAC/B,EAAE,CAAA;CACN,CAAA"}

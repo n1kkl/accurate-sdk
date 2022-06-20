@@ -1,0 +1,1 @@
+{"version":3,"file":"event.dto.d.ts","sourceRoot":"","sources":["../../../src/types/dto/event.dto.ts"],"names":[],"mappings":"AAAA,oBAAY,cAAc,GAAG,cAAc,CAAC;AAE5C,oBAAY,cAAc,GAAG;IACzB,UAAU,EAAE,MAAM,CAAC;IACnB,UAAU,EAAE,MAAM,CAAC;IACnB,cAAc,EAAE,MAAM,CAAC;CAC1B,CAAA"}

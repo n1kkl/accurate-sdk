@@ -1,0 +1,1 @@
+{"version":3,"file":"parcour.dto.d.ts","sourceRoot":"","sources":["../../../src/types/dto/parcour.dto.ts"],"names":[],"mappings":"AAAA,oBAAY,gBAAgB,GAAG,gBAAgB,CAAC;AAEhD,oBAAY,gBAAgB,GAAG;IAC3B,YAAY,EAAE,MAAM,CAAC;IACrB,OAAO,EAAE;QACL,WAAW,EAAE,MAAM,CAAC;KACvB,EAAE,CAAC;CACP,CAAA"}

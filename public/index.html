@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<button id="login">Login</button>
+<button id="logout">Logout</button>
+
+<script src="/accurate-sdk.min.js"></script>
+<script>
+    const {AuthClient, ApiClient} = Accurate;
+
+    window.onload = () => {
+        (async () => {
+            const authClient = await Accurate.AuthClient.create('dev-i0-rmfoq.us.auth0.com', 'KaYkcJboWxnPEmiHqcmI6Ka1YdqhS8L3', 'https://www.accurate.com/');
+            const apiClient = await Accurate.ApiClient.create('http://127.0.0.1:5000', 'http://127.0.0.1:4000', await authClient.getAccessToken());
+
+            // console.log(await apiClient.event.hit('cl1xdv607000009la76ewclnr', 'cl1xdfdq1000009l70qo7ekw7', 1, 1));
+            console.log(await apiClient.event.scoreboard('cl1xdv607000009la76ewclnr'));
+
+            document.getElementById('login').addEventListener('click', () => authClient.authorize('http://127.0.0.1:3000/'));
+            document.getElementById('logout').addEventListener('click', () => authClient.logout('http://127.0.0.1:3000/'));
+        })();
+    }
+</script>
+</body>
+</html>
